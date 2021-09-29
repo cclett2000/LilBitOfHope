@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--Not the most elegant solution to formatting but it gets the job done
+    Will improve in the future and disable button functionality-->
+
+    <!--ImageView
+        android:id="@+id/b3_main_img"
+        android:layout_width="411dp"
+        android:layout_height="385dp"
+        android:src="@drawable/b3_main_img"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.089"
+        tools:ignore="MissingConstraints"-->
+
+    <ImageView
+        android:id="@+id/b4_bk_img"
+        android:layout_width="1208dp"
+        android:layout_height="912dp"
+        android:src="@drawable/background_b4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.502"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/b4_sep_correction"
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:backgroundTint="@color/orange"
+        android:enabled="false"
+        android:gravity="left"
+        android:text=""
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.783" />
+
+    <Button
+        android:id="@+id/b4_detail_header"
+        android:layout_width="350dp"
+        android:layout_height="95dp"
+        android:backgroundTint="@color/orange"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/button_4"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <Button
+        android:id="@+id/b4_detail1"
+        android:layout_width="350dp"
+        android:layout_height="110dp"
+        android:backgroundTint="@color/orange"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/b4_content_l1"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:theme="@style/Theme.LilBitOfHope"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.227" />
+
+    <Button
+        android:id="@+id/b4_detail2"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/orange"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/b4_content_l2"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.397" />
+
+    <Button
+        android:id="@+id/b3_detail3"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/orange"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/b4_content_l3"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.557" />
+
+    <Button
+        android:id="@+id/b4_detail4"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/orange"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/b4_content_l4"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.716" />
+
+    <Button
+        android:id="@+id/b4_detail5"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/orange"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/b4_content_l5"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.81" />
+
+    <Button
+        android:id="@+id/b4_detail6"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/orange"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/b4_content_l6"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.898" />
+
+    <!-- Looks/works better
+    <TextView
+        android:id="@+id/b3_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background=""
+        android:gravity="center"
+        android:maxLines="7"
+        android:text="@string/b3_content"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="157dp">
+    </TextView>-->
+
+    <!--While convenient, it is ugly as all sin
+    <ListView
+        android:id="@+id/button3_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/button3_detail"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" /> -->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

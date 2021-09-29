@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">LilBitOfHope</string>
+
+    <string name="button_1">Health Empowerment</string>
+        <string name="b1_content_l1">• Health Promotion</string>
+        <string name="b1_content_l2">• Health Screenings</string>
+
+    <string name="button_2">Finance &amp; Health</string>
+        <string name="b2_content_l1">• Financial Advice: 1:1 sessions</string>
+        <string name="b2_content_l2">• Endowment Fund: For black-owned businesses and entrepreneurial ventures</string>
+        <string name="b2_content_l3">• Wealth Creation Tactic Consultations: Home Ownership, Vehicle Purchasing,  Consumer Habits</string>
+
+    <string name="button_3">Education - Steam</string>
+        <string name="b3_content_l1">Training: Certifications, General Technology Education, Digital Badge Opportunities</string>
+        <string name="b3_content_l2">Mentoring Sessions</string>
+        <string name="b3_content_l3">Scholarships</string>
+        <string name="b3_content_l4">Tutoring</string>
+        <string name="b3_content_l5">ALBH Resume Book</string>
+        <string name="b3_content_l6">Mock Interview Prep, Resume Writing, and Scholarship Search Assistance</string>
+        <string name="b3_content_l7">Entrepreneurial Resources: Business Plans, Funding, Pitch Decks, Sample Documentation</string>
+
+    <string name="button_4">Community Service</string>
+        <string name="b4_content_l1">Meal Sponsorships – partnerships with local food kitchens</string>
+        <string name="b4_content_l2">Free Health Care Screenings and education</string>
+        <string name="b4_content_l3">Assist Local Chamber of Commerce / Urban League</string>
+        <string name="b4_content_l4">Entrepreneurial Growth &amp; Development</string>
+        <string name="b4_content_l5">Wifi Enhancements</string>
+        <string name="b4_content_l6">Home PC Kits</string>
+
+</resources>

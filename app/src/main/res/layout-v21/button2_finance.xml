@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--Not the most elegant solution to formatting but it gets the job done
+    Will improve in the future and disable button functionality-->
+
+
+    <ImageView
+        android:id="@+id/b1_bk_img"
+        android:layout_width="463dp"
+        android:layout_height="270dp"
+        android:src="@drawable/background_b2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/b1_bk_img2"
+        android:layout_width="475dp"
+        android:layout_height="283dp"
+        android:src="@drawable/background_b2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/b1_main_img"
+        android:layout_width="415dp"
+        android:layout_height="390dp"
+        android:src="@drawable/b2_main_img"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.363"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/b1_detail_header"
+        android:layout_width="350dp"
+        android:layout_height="65dp"
+        android:backgroundTint="@color/blue"
+        android:enabled="false"
+        android:gravity="right"
+        android:text="@string/button_2"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.094" />
+
+    <Button
+        android:id="@+id/b2_detail1"
+        android:layout_width="350dp"
+        android:layout_height="90dp"
+        android:backgroundTint="@color/blue"
+        android:enabled="false"
+        android:gravity="left"
+        android:text="@string/b2_content_l1"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:theme="@style/Theme.LilBitOfHope"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.709" />
+
+    <Button
+        android:id="@+id/b2_detail2"
+        android:layout_width="350dp"
+        android:layout_height="90dp"
+        android:backgroundTint="@color/blue"
+        android:enabled="false"
+        android:gravity="left"
+        android:text="@string/b2_content_l2"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.85" />
+
+    <Button
+        android:id="@+id/b2_detail3"
+        android:layout_width="350dp"
+        android:layout_height="95dp"
+        android:backgroundTint="@color/blue"
+        android:enabled="false"
+        android:gravity="left"
+        android:text="@string/b2_content_l3"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.998" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

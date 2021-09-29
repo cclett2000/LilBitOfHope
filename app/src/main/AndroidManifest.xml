@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.humcomp.lilbitofhope">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LilBitOfHope">
+
+        <!-- Startup Splash -->
+        <activity android:name=".LoadingSplash"
+            android:theme="@style/LoadingSplash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- Main -->
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+        </activity>
+
+        <!--Button 1 - Health Empowerment -->
+        <activity android:name=".Button1_HealthEmp"
+            android:parentActivityName=".MainActivity">
+        </activity>
+
+        <!--Button 2 - Finance -->
+        <activity android:name=".Button2_Finance"
+            android:parentActivityName=".MainActivity">
+        </activity>
+
+        <!--Button 3 - Education - STEAM -->
+        <activity android:name=".Button3_EduSteam"
+                  android:parentActivityName=".MainActivity">
+        </activity>
+
+        <!--Button 4 - Community Service -->
+        <activity android:name=".Button4_ComServ"
+            android:parentActivityName=".MainActivity">
+        </activity>
+
+    </application>
+
+</manifest>

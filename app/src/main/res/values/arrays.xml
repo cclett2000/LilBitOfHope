@@ -1,0 +1,11 @@
+<resources>
+    <string-array name="button3_detail">
+        <item> - Training: Certifications, General Technology Education, Digital Badge Opportunities</item>
+        <item> - Mentoring Sessions</item>
+        <item> - Scholarships</item>
+        <item> - Tutoring</item>
+        <item> - ALBH Resume Book</item>
+        <item> - Mock Interview Prep, Resume Writing, and Scholarship Search Assistance</item>
+        <item> - Entrepreneurial Resources: Business Plans, Funding, Pitch Decks, Sample Documentation</item>
+    </string-array>
+</resources>
